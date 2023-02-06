@@ -1,0 +1,31 @@
+{
+  "name":"MODIS_Convert_and_Clip",
+  "displayName":"MODIS Convert and Clip",
+  "executionType":"asynchronous",
+  "invocationType":"keywords",
+  "taskReset":"no",
+  "version":"5.3.1",
+  "parameters":[
+    {
+      "name":"input_MODIS_data",
+      "displayName":"Input MODIS data",
+      "dataType":"long",
+      "direction":"input",
+      "parameterType":"required"
+    },
+    {
+      "name":"output",
+      "displayName":"Output",
+      "dataType":"long",
+      "direction":"output",
+      "parameterType":"required"
+    },
+    {
+      "name":"output",
+      "displayName":"Output",
+      "dataType":"long",
+      "direction":"output",
+      "parameterType":"required"
+    }
+  ]
+}
